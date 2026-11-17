@@ -1,0 +1,14 @@
+name: DreamBackup
+version: 1.0.0
+main: io.github.klaudystyle.dreambackup.DreamBackupPlugin
+description: Automatic backups for Bukkit worlds and server files.
+load: POSTWORLD
+commands:
+  dreambackup:
+    description: Run a backup or view its status.
+    usage: '/<command> [now|status]'
+    permission: dreambackup.manage
+permissions:
+  dreambackup.manage:
+    description: Run backups and view backup status.
+    default: op

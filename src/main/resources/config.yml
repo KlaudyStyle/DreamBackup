@@ -1,0 +1,14 @@
+output-directory: backups
+interval-minutes: 60
+retention: 7
+paths:
+  - server.properties
+  - bukkit.yml
+  - permissions.yml
+  - help.yml
+  - ops.txt
+  - white-list.txt
+  - banned-players.txt
+  - banned-ips.txt
+  - plugins
+required-paths: []
